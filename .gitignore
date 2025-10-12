@@ -76,3 +76,19 @@ htmlcov/
 *.db
 *.sqlite
 *.sqlite3
+
+# Video files (large files should not be committed)
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+*.webm
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.aac
+*.flac
