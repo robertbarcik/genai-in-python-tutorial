@@ -1,0 +1,8 @@
+Conference Room A has a Samsung 65-inch display (serial: SAMS-2024-001),
+a Logitech Rally camera (serial: LOG-CAM-445), and a Poly Studio phone system (serial: POLY-899-X).
+
+Conference Room B contains two Dell OptiPlex 7090 computers (serials: DELL-PC-1023 and DELL-PC-1024),
+an LG 55-inch display (serial: LG-DSP-3301), and a Jabra Speak 750 speakerphone (serial: JAB-750-229).
+
+Conference Room C is equipped with a Microsoft Surface Hub 2S (serial: MSFT-HUB-8821),
+a Cisco Webex Room Kit (serial: CISCO-WX-4492), and an HP laptop (serial: HP-LT-9933).

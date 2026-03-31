@@ -1,0 +1,24 @@
+Conference Room Inventory Report:
+
+Executive Boardroom (3rd Floor):
+- Two 75-inch Samsung QN75 displays mounted on the wall (serials: SAMQN-8821, SAMQN-8822)
+- One Logitech Rally Bar camera system, serial number LOGI-RB-3345
+- Polycom RealPresence Trio 8800 conference phone, serial POLY-8800-991
+- Dell OptiPlex 7090 PC for presentations, serial DELL-OPT-4455
+
+Room 2A (2nd Floor):
+- Single 65-inch LG OLED display, serial LG-OLED-2293
+- Jabra PanaCast camera, serial JAB-PC-7721
+- Microsoft Surface Hub 2S 50-inch, serial MSFT-HUB-1203
+- Two wireless presentation adapters, serials WRLSS-001 and WRLSS-002
+
+Training Room B (1st Floor):
+- Four 55-inch Sony Bravia displays (serials: SONY-BR-5501, SONY-BR-5502, SONY-BR-5503, SONY-BR-5504)
+- Cisco Webex Room Kit Pro, serial CISCO-WX-8832
+- Three HP EliteDesk 800 computers (serials: HP-ED-9901, HP-ED-9902, HP-ED-9903)
+- One portable projector - Epson PowerLite, serial EPSON-PL-4456
+
+Small Meeting Room 105:
+- Single 43-inch Dell monitor, serial DELL-MON-3344
+- Logitech MeetUp camera, serial LOGI-MU-6655
+- One laptop docking station, serial DOCK-STN-2234
