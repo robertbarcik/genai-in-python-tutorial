@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Pentera",
+    "industry": "Cybersecurity",
+    "location": "Tel Aviv, Israel",
+    "description": "Pentera provides automated security validation platforms that help organizations continuously test their cybersecurity defenses. Their platform simulates real-world attacks to identify vulnerabilities before hackers can exploit them.",
+    "investors": ["K1 Investment Management", "Insight Partners", "Blackstone"],
+    "founded": 2015
+  },
+  {
+    "name": "Wiz",
+    "industry": "Cloud Security",
+    "location": "New York, USA",
+    "description": "Wiz is a cloud security platform that helps organizations identify and remove critical risks across their cloud infrastructure. They provide comprehensive visibility and threat detection for AWS, Azure, and Google Cloud.",
+    "investors": ["Sequoia Capital", "Greenoaks", "Salesforce Ventures", "Cyberstarts"],
+    "founded": 2020
+  },
+  {
+    "name": "Ramp",
+    "industry": "FinTech",
+    "location": "New York, USA",
+    "description": "Ramp is a corporate card and spend management platform that helps companies save time and money. Their platform automates expense tracking, provides real-time insights, and identifies cost-saving opportunities.",
+    "investors": ["Founders Fund", "Stripe", "Goldman Sachs", "Thrive Capital"],
+    "founded": 2019
+  },
+  {
+    "name": "Notion",
+    "industry": "Productivity Software",
+    "location": "San Francisco, USA",
+    "description": "Notion is an all-in-one workspace that combines notes, tasks, wikis, and databases. Teams use Notion to collaborate, organize knowledge, and manage projects in one unified platform.",
+    "investors": ["Coatue", "Sequoia Capital", "Index Ventures"],
+    "founded": 2016
+  },
+  {
+    "name": "Anduril Industries",
+    "industry": "Defense Technology",
+    "location": "Costa Mesa, USA",
+    "description": "Anduril Industries builds advanced defense technology products including autonomous systems, sensors, and AI-powered solutions. Their technology is used for border security, base security, and military applications.",
+    "investors": ["Andreessen Horowitz", "Founders Fund", "8VC", "Valor Equity Partners"],
+    "founded": 2017
+  },
+  {
+    "name": "Databricks",
+    "industry": "Data Analytics",
+    "location": "San Francisco, USA",
+    "description": "Databricks provides a unified analytics platform built on Apache Spark. Their lakehouse platform combines data warehousing and data lakes, enabling companies to build data, analytics, and AI solutions at scale.",
+    "investors": ["Andreessen Horowitz", "NEA", "Coatue", "Tiger Global"],
+    "founded": 2013
+  },
+  {
+    "name": "Figma",
+    "industry": "Design Software",
+    "location": "San Francisco, USA",
+    "description": "Figma is a collaborative interface design tool that runs in the browser. Designers use Figma to create, prototype, and collaborate on user interfaces for web and mobile applications in real-time.",
+    "investors": ["Sequoia Capital", "Greylock Partners", "Kleiner Perkins", "Index Ventures"],
+    "founded": 2012
+  },
+  {
+    "name": "Plaid",
+    "industry": "FinTech Infrastructure",
+    "location": "San Francisco, USA",
+    "description": "Plaid provides financial services APIs that enable applications to connect with users' bank accounts. Their platform powers thousands of fintech apps including Venmo, Robinhood, and Chime.",
+    "investors": ["Andreessen Horowitz", "NEA", "Index Ventures", "Goldman Sachs"],
+    "founded": 2013
+  },
+  {
+    "name": "UiPath",
+    "industry": "Robotic Process Automation",
+    "location": "New York, USA",
+    "description": "UiPath is a leading RPA platform that helps organizations automate repetitive business processes. Their software robots can handle tasks like data entry, document processing, and system integration.",
+    "investors": ["Accel", "CapitalG", "Sequoia Capital", "Tiger Global"],
+    "founded": 2005
+  },
+  {
+    "name": "Snyk",
+    "industry": "Developer Security",
+    "location": "Boston, USA",
+    "description": "Snyk is a developer security platform that helps teams find and fix vulnerabilities in code, dependencies, containers, and infrastructure as code. Their tools integrate directly into developer workflows.",
+    "investors": ["Accel", "Coatue", "Tiger Global", "Boldstart Ventures"],
+    "founded": 2015
+  }
+]
