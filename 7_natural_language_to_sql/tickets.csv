@@ -1,0 +1,28 @@
+ticket_id,title,category,priority,status,days_ago_created,days_ago_resolved,assigned_to,customer_company
+T001,Server outage - production environment down,Network Problem,Critical,In Progress,1,,Sarah Johnson,SecureBank
+T002,Cannot access shared drive - entire department affected,Access Request,Critical,Open,2,,Mike Chen,TechCorp
+T003,Email server not responding,Email Issue,Critical,Resolved,3,2,Sarah Johnson,DataSystems
+T004,VPN connection keeps dropping,Network Problem,High,In Progress,2,,Alex Rodriguez,CloudNet
+T005,Laptop won't boot - blue screen error,Hardware Issue,High,Open,1,,John Smith,HealthPlus
+T006,Database connection timeout errors,Software Installation,High,Resolved,5,3,Emma Davis,TechCorp
+T007,Need admin rights for new software installation,Access Request,Medium,Open,3,,John Smith,DataSystems
+T008,Email not syncing to mobile device,Email Issue,Medium,In Progress,4,,Mike Chen,SecureBank
+T009,Printer offline in conference room,Hardware Issue,Medium,Resolved,6,5,John Smith,CloudNet
+T010,Software license expired for Adobe Creative Suite,Software Installation,Medium,Resolved,7,4,Emma Davis,HealthPlus
+T011,Request to change desktop wallpaper policy,Access Request,Low,Open,10,,Alex Rodriguez,TechCorp
+T012,Keyboard spacebar sticking occasionally,Hardware Issue,Low,Closed,15,12,John Smith,DataSystems
+T013,Password reset - forgot domain password,Password Reset,Medium,Closed,1,1,Mike Chen,SecureBank
+T014,Account locked after too many failed login attempts,Password Reset,High,Closed,2,2,Sarah Johnson,CloudNet
+T015,Need to reset multi-factor authentication,Password Reset,Medium,Closed,8,7,Alex Rodriguez,HealthPlus
+T016,Slow internet connection in office,Network Problem,Medium,In Progress,5,,Sarah Johnson,TechCorp
+T017,Cannot connect to Wi-Fi network,Network Problem,Medium,Resolved,9,8,Alex Rodriguez,DataSystems
+T018,Install Zoom for remote meetings,Software Installation,Medium,Closed,11,10,Emma Davis,SecureBank
+T019,Microsoft Office needs to be updated,Software Installation,Low,Closed,14,13,Mike Chen,CloudNet
+T020,Install Python development environment,Software Installation,Medium,Open,4,,Emma Davis,TechCorp
+T021,Laptop running very slow - needs optimization,Hardware Issue,Medium,In Progress,6,,John Smith,HealthPlus
+T022,External monitor not detected,Hardware Issue,Medium,Resolved,12,11,John Smith,DataSystems
+T023,Need access to finance folder on SharePoint,Access Request,High,Closed,7,6,Alex Rodriguez,SecureBank
+T024,Email attachments not downloading,Email Issue,High,Resolved,8,7,Mike Chen,CloudNet
+T025,Spam emails getting through filter,Email Issue,Low,Open,13,,Sarah Johnson,HealthPlus
+T026,New hire needs laptop setup,Hardware Issue,High,Open,0,,, TechCorp
+T027,Conference room TV not working,Hardware Issue,Medium,Open,0,,,DataSystems
