@@ -1,7 +1,6 @@
-transformers>=4.36.0
-tokenizers>=0.15.0
-datasets>=2.16.0
-torch>=2.1.0
-accelerate>=0.25.0
-sentencepiece>=0.1.99
-protobuf>=3.20.0
+transformers==5.0.0
+tokenizers==0.22.2
+datasets==4.0.0
+accelerate==1.13.0
+sentencepiece==0.2.1
+protobuf==5.29.6
