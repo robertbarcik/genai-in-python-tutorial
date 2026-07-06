@@ -7,13 +7,13 @@ A companion tutorial repo for learning Generative AI development in Python, buil
 | # | Module | What it covers |
 |---|--------|-----------------|
 | 1 | [Absolute Python Essentials](1_absolute_python_essentials/1_absolute_python_essentials.ipynb) | Core Python: variables, strings, control flow, functions - no API key needed |
-| 2 | [Basic Model Usage](2_basic_project_examples/2_basic_model_usage/2_basic_model_usage.ipynb) | First OpenAI API calls: moderation, text generation, summarization, TTS/transcription, image generation, vision |
-| 3 | [Plant Identification](2_basic_project_examples/3_plant_identification/3_plant_identification.ipynb) | Multimodal AI: identifying plants from images and annotating results |
-| 4 | [Extracting Knowledge from Videos](2_basic_project_examples/4_extracting_knowledge_from_videos/4_extracting_knowledge_from_videos.ipynb) | Video to audio, Whisper transcription, GPT cleanup of lecture notes |
-| 5 | [Extracting Information from Unstructured Data](2_basic_project_examples/5_extracting_information_from_unstructured_data/5_extracting_information_from_unstructured_data.ipynb) | Turning free-form text (emails, tickets) into structured JSON |
-| 6 | [Converting Text to Audio](2_basic_project_examples/6_converting_text_into_audio_fairytale_example/6_converting_text_to_audio_fairytale_example.ipynb) | OpenAI TTS: generating a fairytale as narrated audio |
-| 7 | [Natural Language to SQL](2_basic_project_examples/7_natural_language_to_sql/7_natural_language_to_sql.ipynb) | Converting plain-English questions into executable SQL queries |
-| 8 | [Content Creation](2_basic_project_examples/8_content_creation/8_content_creation.ipynb) | Generating knowledge base articles from raw support ticket notes |
+| 2 | [One Call Is All You Need](2_basic_project_examples/2_basic_model_usage/2_basic_model_usage.ipynb) | The single text call every other app is built on, plus giving the model a role and streaming its answer |
+| 3 | [Plant Identification](2_basic_project_examples/3_plant_identification/3_plant_identification.ipynb) | Hand the model a photo and it names the plant (vision) |
+| 4 | [Extracting Knowledge from Videos](2_basic_project_examples/4_extracting_knowledge_from_videos/4_extracting_knowledge_from_videos.ipynb) | Transcribe a recording and turn it into clean, usable notes |
+| 5 | [Extracting Information from Unstructured Data](2_basic_project_examples/5_extracting_information_from_unstructured_data/5_extracting_information_from_unstructured_data.ipynb) | Turn messy free-form text into structured JSON with structured outputs |
+| 6 | [Fairytale Studio](2_basic_project_examples/6_converting_text_into_audio_fairytale_example/6_converting_text_to_audio_fairytale_example.ipynb) | One story idea becomes a written tale, a narration, and an illustration |
+| 7 | [Natural Language to SQL](2_basic_project_examples/7_natural_language_to_sql/7_natural_language_to_sql.ipynb) | Ask a question in plain English, get SQL, run it on a small database |
+| 8 | [Content Creation](2_basic_project_examples/8_content_creation/8_content_creation.ipynb) | Draft a knowledge base article from raw ticket notes, then repurpose it |
 | 9 | [Retrieval-Augmented Generation (RAG)](3_retrieval_augmented_generation_RAG/3_retrieval_augmented_generation_RAG.ipynb) | Embeddings, semantic search, and grounding answers in retrieved context |
 | 10 | [Fine-Tuning](4_fine-tuning/4_fine-tuning.ipynb) | Modern fine-tuning approaches (SFT, DPO) and when to use them - **needs a GPU, Colab T4** |
 | 11 | [Function Calling](5_function_calling/5_function_calling.ipynb) | Connecting LLMs to external functions and real-world actions |
