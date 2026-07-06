@@ -1,0 +1,28 @@
+{
+  "log_created": "2026-07-06T09:19:32.758841",
+  "tickets": [
+    {
+      "ticket_id": "TKT-001",
+      "user_name": "Alice Smith",
+      "issue": "Password reset needed",
+      "urgency": "Low",
+      "logged_at": "2026-07-06T09:19:32.758777"
+    },
+    {
+      "ticket_id": "TKT-002",
+      "user_name": "Bob Johnson",
+      "issue": "VPN not connecting",
+      "urgency": "High",
+      "logged_at": "2026-07-06T09:19:33.264635"
+    },
+    {
+      "ticket_id": "TKT-003",
+      "user_name": "Carol Davis",
+      "issue": "Printer offline",
+      "urgency": "Medium",
+      "logged_at": "2026-07-06T09:19:33.770444"
+    }
+  ],
+  "total_tickets": 3,
+  "last_updated": "2026-07-06T09:19:33.770920"
+}

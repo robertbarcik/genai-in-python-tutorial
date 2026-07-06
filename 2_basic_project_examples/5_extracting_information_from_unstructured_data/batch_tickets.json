@@ -1,0 +1,64 @@
+{
+  "total_processed": 5,
+  "successful": 5,
+  "failed": 0,
+  "success_rate": "100.0%",
+  "results": [
+    {
+      "ticket_id": "TKT-2026-0001",
+      "user_name": "Anna Rodriguez",
+      "employee_id": "EMP-3401",
+      "department": "Marketing",
+      "contact_email": "anna.rodriguez@company.com",
+      "issue_summary": "Laptop battery drains quickly; lasts ~30 minutes.",
+      "urgency": "High",
+      "processed_at": "2026-07-06T09:19:40.409692",
+      "batch_index": 1
+    },
+    {
+      "ticket_id": null,
+      "user_name": "Kevin Park",
+      "employee_id": "EMP-5623",
+      "department": "Sales",
+      "contact_email": "kevin.park@company.com",
+      "issue_summary": "Cannot connect to the office WiFi.",
+      "urgency": "Medium",
+      "processed_at": "2026-07-06T09:19:47.110698",
+      "batch_index": 2
+    },
+    {
+      "ticket_id": "TKT-2026-0003",
+      "user_name": "Lisa Chen",
+      "employee_id": "EMP-7834",
+      "department": "Finance",
+      "contact_email": "lisa.chen@company.com",
+      "issue_summary": "Printer on floor 3 shows 'Paper Jam' but no paper is stuck; issue affects multiple users; needs fixing ASAP.",
+      "urgency": "High",
+      "processed_at": "2026-07-06T09:19:55.015541",
+      "batch_index": 3
+    },
+    {
+      "ticket_id": "TKT-2026-0004",
+      "user_name": "Marcus Johnson",
+      "employee_id": "EMP-2019",
+      "department": "IT Support",
+      "contact_email": "marcus.johnson@company.com",
+      "issue_summary": "Workstation running extremely slow; all applications take forever to load.",
+      "urgency": "Low",
+      "processed_at": "2026-07-06T09:20:00.657760",
+      "batch_index": 4
+    },
+    {
+      "ticket_id": "TKT-2026-0005",
+      "user_name": "Sophia Williams",
+      "employee_id": "EMP-9102",
+      "department": "HR",
+      "contact_email": "sophia.williams@company.com",
+      "issue_summary": "Account locked after incorrect password entry; urgent access needed for payroll processing today.",
+      "urgency": "Critical",
+      "processed_at": "2026-07-06T09:20:05.948186",
+      "batch_index": 5
+    }
+  ],
+  "failures": []
+}

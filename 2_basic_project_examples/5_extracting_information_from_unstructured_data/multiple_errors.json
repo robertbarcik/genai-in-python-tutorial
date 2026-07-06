@@ -1,0 +1,50 @@
+{
+  "user_name": "David Kumar",
+  "employee_id": "EMP-3392",
+  "department": "Sales Department",
+  "report_date": null,
+  "total_errors": 5,
+  "user_sentiment": "frustrated",
+  "errors": [
+    {
+      "error_number": 1,
+      "error_code": "DRIVER_IRQL_NOT_LESS_OR_EQUAL",
+      "error_message": "DRIVER_IRQL_NOT_LESS_OR_EQUAL",
+      "source": "Windows",
+      "timestamp_context": "Around 9 AM",
+      "error_type": "Blue Screen"
+    },
+    {
+      "error_number": 2,
+      "error_code": "0xc0000005",
+      "error_message": "0xc0000005",
+      "source": "Adobe Acrobat",
+      "timestamp_context": "10:30 AM",
+      "error_type": "Application Crash"
+    },
+    {
+      "error_number": 3,
+      "error_code": "49.FF04",
+      "error_message": "Error 49.FF04",
+      "source": "Network Printer",
+      "timestamp_context": "Just before lunch",
+      "error_type": "Printer Error"
+    },
+    {
+      "error_number": 4,
+      "error_code": "SYSTEM_SERVICE_EXCEPTION",
+      "error_message": "SYSTEM_SERVICE_EXCEPTION",
+      "source": "Windows",
+      "timestamp_context": "Around 2 PM",
+      "error_type": "Blue Screen"
+    },
+    {
+      "error_number": 5,
+      "error_code": "0x80040600",
+      "error_message": "Outlook error 0x80040600",
+      "source": "Microsoft Outlook",
+      "timestamp_context": "3:15 PM",
+      "error_type": "Application Error"
+    }
+  ]
+}

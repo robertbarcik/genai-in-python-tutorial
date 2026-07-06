@@ -1,0 +1,9 @@
+{
+  "ticket_id": "TKT-2024-0157",
+  "user_name": "Emily Chen",
+  "employee_id": "EMP-8821",
+  "department": "Finance",
+  "issue_summary": "Excel crashes when opening large files",
+  "urgency": "Medium",
+  "extracted_at": "2026-07-06T09:19:29.719861"
+}

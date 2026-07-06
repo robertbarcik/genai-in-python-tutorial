@@ -1,0 +1,11 @@
+room,device_type,manufacturer,model,serial_number
+Conference Room A,display,Samsung,65-inch display,SAMS-2024-001
+Conference Room A,camera,Logitech,Rally,LOG-CAM-445
+Conference Room A,phone system,Poly,Studio,POLY-899-X
+Conference Room B,computer,Dell,OptiPlex 7090,DELL-PC-1023
+Conference Room B,computer,Dell,OptiPlex 7090,DELL-PC-1024
+Conference Room B,display,LG,55-inch display,LG-DSP-3301
+Conference Room B,speakerphone,Jabra,Speak 750,JAB-750-229
+Conference Room C,computer,Microsoft,Surface Hub 2S,MSFT-HUB-8821
+Conference Room C,video system,Cisco,Room Kit,CISCO-WX-4492
+Conference Room C,computer,HP,laptop,HP-LT-9933

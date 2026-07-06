@@ -1,0 +1,93 @@
+[
+  {
+    "ticket_id": "T001",
+    "timestamp": "2026-07-06T09:25:56.334527",
+    "checks": [
+      {
+        "check": "Length Validation",
+        "word_count": 605,
+        "status": "\u2705 PASS",
+        "details": "605 words (target: 300-700)"
+      },
+      {
+        "check": "Structure Validation",
+        "status": "\u26a0\ufe0f WARNING: Missing 1 section(s)",
+        "sections_found": 3,
+        "sections_missing": [
+          "Numbered Steps"
+        ],
+        "details": "3/4 required sections found"
+      },
+      {
+        "check": "Readability Check",
+        "status": "\u2705 PASS",
+        "avg_sentence_length": 17.3,
+        "has_action_verbs": true,
+        "jargon_density": 0.0,
+        "details": "Avg sentence: 17.3 words, Jargon: 0.0%"
+      }
+    ],
+    "overall_status": "\u26a0\ufe0f NEEDS REVIEW"
+  },
+  {
+    "ticket_id": "T002",
+    "timestamp": "2026-07-06T09:25:56.335728",
+    "checks": [
+      {
+        "check": "Length Validation",
+        "word_count": 612,
+        "status": "\u2705 PASS",
+        "details": "612 words (target: 300-700)"
+      },
+      {
+        "check": "Structure Validation",
+        "status": "\u26a0\ufe0f WARNING: Missing 1 section(s)",
+        "sections_found": 3,
+        "sections_missing": [
+          "Numbered Steps"
+        ],
+        "details": "3/4 required sections found"
+      },
+      {
+        "check": "Readability Check",
+        "status": "\u2705 PASS",
+        "avg_sentence_length": 18.0,
+        "has_action_verbs": true,
+        "jargon_density": 0.0,
+        "details": "Avg sentence: 18.0 words, Jargon: 0.0%"
+      }
+    ],
+    "overall_status": "\u26a0\ufe0f NEEDS REVIEW"
+  },
+  {
+    "ticket_id": "T003",
+    "timestamp": "2026-07-06T09:25:56.336403",
+    "checks": [
+      {
+        "check": "Length Validation",
+        "word_count": 592,
+        "status": "\u2705 PASS",
+        "details": "592 words (target: 300-700)"
+      },
+      {
+        "check": "Structure Validation",
+        "status": "\u26a0\ufe0f WARNING: Missing 2 section(s)",
+        "sections_found": 2,
+        "sections_missing": [
+          "Numbered Steps",
+          "Problem Statement"
+        ],
+        "details": "2/4 required sections found"
+      },
+      {
+        "check": "Readability Check",
+        "status": "\u2705 PASS",
+        "avg_sentence_length": 16.9,
+        "has_action_verbs": true,
+        "jargon_density": 0.0,
+        "details": "Avg sentence: 16.9 words, Jargon: 0.0%"
+      }
+    ],
+    "overall_status": "\u26a0\ufe0f NEEDS REVIEW"
+  }
+]

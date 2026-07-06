@@ -1,0 +1,79 @@
+{
+  "tickets": [
+    {
+      "ticket_id": "TKT-20260706-092115",
+      "user_name": "Alex Morgan",
+      "employee_id": "EMP-5521",
+      "department": "Engineering",
+      "contact_email": "alex.morgan@company.com",
+      "contact_phone": "3344",
+      "issue_summary": "Dell Latitude laptop overheating and shutting down randomly during video calls",
+      "issue_details": "Dell Latitude laptop is overheating and shutting down randomly during video calls. This is high priority as I have important client demos this week.",
+      "urgency": "High",
+      "confidence_score": 92,
+      "missing_info": [],
+      "processed_at": "2026-07-06T09:21:23.999037",
+      "raw_request": "\nFrom: alex.morgan@company.com\nEmployee ID: EMP-5521\nDepartment: Engineering\n\nHi IT Support,\n\nMy Dell Latitude laptop is overheating and shutting down randomly during video calls.\nThis is high priority as I have important client demos this week.\n\nYou can reach me at ext. 3344 or this email.\n\nThanks,\nAlex Morgan\n",
+      "processing_status": "Ready",
+      "recommended_action": "Auto-process",
+      "validation_result": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "ticket_id": "TKT-20260706-092124",
+      "user_name": null,
+      "employee_id": null,
+      "department": null,
+      "contact_email": null,
+      "contact_phone": null,
+      "issue_summary": "Computer not working properly",
+      "issue_details": "Not provided.",
+      "urgency": "Medium",
+      "confidence_score": 25,
+      "missing_info": [
+        "user_name",
+        "employee_id",
+        "department",
+        "contact_email",
+        "contact_phone",
+        "issue_details"
+      ],
+      "processed_at": "2026-07-06T09:21:44.400534",
+      "raw_request": "\nComputer not working properly. Need help.\n",
+      "processing_status": "Requires Action",
+      "recommended_action": "Request additional information from user",
+      "validation_result": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    },
+    {
+      "ticket_id": "TKT-20260706-092144",
+      "user_name": "Maria Santos",
+      "employee_id": "EMP-8934",
+      "department": "Design",
+      "contact_email": "maria.santos@company.com",
+      "contact_phone": "555-0199",
+      "issue_summary": "Workstation GPU issues - crashes during 3D rendering",
+      "issue_details": "Main rendering workstation Dell Precision 7920 with NVIDIA Quadro RTX 8000 and 256GB RAM keeps crashing during 3D rendering jobs. System has dual Xeon processors and runs Windows 11 Pro. Priority: Critical due to a project deadline tomorrow.",
+      "urgency": "Critical",
+      "confidence_score": 92,
+      "missing_info": [],
+      "processed_at": "2026-07-06T09:21:54.129693",
+      "raw_request": "\nFrom: tech.lead@company.com\nSubject: Workstation GPU Issues\n\nHey IT,\n\nI'm the tech lead for the design team (EMP-8934). Our main rendering workstation\n(Dell Precision 7920 with NVIDIA Quadro RTX 8000, 256GB RAM) keeps crashing during\n3D rendering jobs. Critical priority - we have a project deadline tomorrow!\n\nThe system has dual Xeon processors and runs Windows 11 Pro.\n\nContact: maria.santos@company.com or 555-0199\n\nMaria Santos\n",
+      "processing_status": "Ready",
+      "recommended_action": "Auto-process",
+      "validation_result": {
+        "is_valid": true,
+        "errors": [],
+        "warnings": []
+      }
+    }
+  ],
+  "total_count": 3,
+  "last_updated": "2026-07-06T09:21:54.130201"
+}

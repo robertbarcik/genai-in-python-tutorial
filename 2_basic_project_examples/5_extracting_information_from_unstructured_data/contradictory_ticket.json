@@ -1,0 +1,12 @@
+{
+  "user_name": "James Anderson",
+  "employee_id": "EMP-4501",
+  "issue_summary": "Network issue; conflicting urgency statements: urgent/critical vs low priority and can wait until next week; no clear priority level.",
+  "urgency": "High",
+  "contradiction_detected": true,
+  "contradictions_found": [
+    "The email states the issue is 'urgent' and 'critical' (high urgency) but also says it is 'low priority' and can wait until next week.",
+    "The subject mentions 'Urgent but can wait', which contradicts the urgency implied in the body."
+  ],
+  "resolution_notes": "Resolved by flagging contradictions between urgency indicators. Assigned an overall urgency of High based on explicit 'urgent' and 'critical' terms in body, while noting the conflict with statements that imply low priority and a delayed timeline."
+}

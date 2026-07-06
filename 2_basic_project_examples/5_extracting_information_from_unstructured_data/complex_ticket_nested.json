@@ -1,0 +1,47 @@
+{
+  "user_name": "Michael Thompson",
+  "department": "Design",
+  "employee_id": "EMP-9012",
+  "contact_email": "michael.thompson@company.com",
+  "contact_phone": "555-0184",
+  "issue_summary": "Graphics freezing and occasional crashes during SolidWorks rendering, impacting workflow.",
+  "suspected_cause": "Graphics card overheating",
+  "urgency": "High",
+  "affected_application": "SolidWorks",
+  "device": {
+    "manufacturer": "Dell",
+    "model": "Precision 7920 Tower",
+    "service_tag": "5XYZ789",
+    "processor": {
+      "brand": "Intel",
+      "model": "Xeon Gold 6248R",
+      "cores": 24,
+      "speed_ghz": 3.0
+    },
+    "ram": {
+      "capacity_gb": 128,
+      "type": "DDR4 ECC"
+    },
+    "gpu": {
+      "manufacturer": "NVIDIA",
+      "model": "Quadro RTX 5000",
+      "memory_gb": 16
+    },
+    "storage": [
+      {
+        "capacity_tb": 1.0,
+        "type": "NVMe SSD",
+        "purpose": "OS drive"
+      },
+      {
+        "capacity_tb": 4.0,
+        "type": "SATA SSD",
+        "purpose": "data drive"
+      }
+    ],
+    "operating_system": {
+      "name": "Windows 11 Pro for Workstations",
+      "version": "23H2"
+    }
+  }
+}

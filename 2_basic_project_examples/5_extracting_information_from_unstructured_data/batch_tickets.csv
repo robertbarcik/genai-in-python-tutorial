@@ -1,0 +1,6 @@
+ticket_id,user_name,employee_id,department,contact_email,issue_summary,urgency,processed_at
+TKT-2026-0001,Anna Rodriguez,EMP-3401,Marketing,anna.rodriguez@company.com,Laptop battery drains quickly; lasts ~30 minutes.,High,2026-07-06T09:19:40.409692
+,Kevin Park,EMP-5623,Sales,kevin.park@company.com,Cannot connect to the office WiFi.,Medium,2026-07-06T09:19:47.110698
+TKT-2026-0003,Lisa Chen,EMP-7834,Finance,lisa.chen@company.com,Printer on floor 3 shows 'Paper Jam' but no paper is stuck; issue affects multiple users; needs fixing ASAP.,High,2026-07-06T09:19:55.015541
+TKT-2026-0004,Marcus Johnson,EMP-2019,IT Support,marcus.johnson@company.com,Workstation running extremely slow; all applications take forever to load.,Low,2026-07-06T09:20:00.657760
+TKT-2026-0005,Sophia Williams,EMP-9102,HR,sophia.williams@company.com,Account locked after incorrect password entry; urgent access needed for payroll processing today.,Critical,2026-07-06T09:20:05.948186

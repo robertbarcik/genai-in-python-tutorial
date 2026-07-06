@@ -1,0 +1,21 @@
+{
+  "extraction_status": "partial",
+  "successfully_extracted": {
+    "location": "Room B",
+    "reported_by": "Sarah",
+    "issue_summary": "Something wrong in Room B"
+  },
+  "failed_to_extract": [],
+  "confidence_score": 75,
+  "assumptions_made": [
+    "Interpreted 'room B' as the location",
+    "Assumed Sarah is the person who reported the issue",
+    "Kept the issue_summary as stated without inferring a specific problem"
+  ],
+  "recommended_actions": [
+    "Visually inspect Room B to identify the issue",
+    "Ask Sarah for any additional details or context",
+    "Document findings and determine safety implications",
+    "Assign maintenance or facilities staff to address"
+  ]
+}

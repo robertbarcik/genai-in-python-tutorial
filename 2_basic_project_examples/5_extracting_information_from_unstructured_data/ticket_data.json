@@ -1,0 +1,13 @@
+{
+  "user_name": "Jennifer Martinez",
+  "department": "Sales",
+  "employee_id": "EMP-5834",
+  "contact_email": "jennifer.martinez@company.com",
+  "contact_phone": "555-0192",
+  "issue_summary": "Outlook keeps crashing on open; unable to access email",
+  "application": "Microsoft Outlook",
+  "urgency": "High",
+  "actions_tried": [
+    "Restarted computer twice"
+  ]
+}

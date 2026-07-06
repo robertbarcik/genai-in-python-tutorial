@@ -1,0 +1,16 @@
+{
+  "user_name": "Sarah Williams",
+  "department": "Marketing Department",
+  "employee_id": "EMP-4567",
+  "contact_email": "sarah.williams@company.com",
+  "contact_phone": "ext. 4523; cell 555-0167",
+  "device_info": {
+    "manufacturer": "Dell",
+    "model": "Latitude 5420"
+  },
+  "issue_summary": "Laptop battery drains quickly; lasts about an hour.",
+  "issue_details": "Battery drains completely within an hour even with light use (Word and email). The client presentation is tomorrow at 2 PM, so it is time-sensitive. Tried using a different power outlet; the charger appears to work (charging light is on).",
+  "urgency": "High",
+  "deadline_context": "Client presentation tomorrow at 2 PM; need laptop functioning by then.",
+  "troubleshooting_done": "Tried using a different power outlet; charger seems to work fine (charging light on)."
+}

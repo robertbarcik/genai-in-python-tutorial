@@ -1,0 +1,24 @@
+{
+  "user_name": null,
+  "employee_id": null,
+  "department": null,
+  "contact_email": null,
+  "issue_summary": "My computer isn't working.",
+  "urgency": "Medium",
+  "confidence_score": 25,
+  "missing_fields": [
+    "user_name",
+    "employee_id",
+    "department",
+    "contact_email",
+    "urgency"
+  ],
+  "follow_up_questions": [
+    "What is your full name?",
+    "What is your employee ID?",
+    "What department do you work in?",
+    "What is your contact email or phone number?",
+    "How urgent is this issue for you (Low/Medium/High/Critical)?",
+    "Would you prefer on-site, remote, or phone support?"
+  ]
+}

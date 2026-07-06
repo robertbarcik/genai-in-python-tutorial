@@ -1,0 +1,15 @@
+{
+  "user_name": "Robert Chen",
+  "employee_id": "EMP-7821",
+  "contact_email": "robert.chen@company.com",
+  "issue_summary": "VPN client disconnects every 5-10 minutes.",
+  "urgency": "High",
+  "department": "Engineering",
+  "contact_phone": "555-0198",
+  "application": "VPN Client",
+  "actions_tried": [
+    "Restarted the VPN client",
+    "Rebooted my laptop",
+    "Checked my internet connection"
+  ]
+}

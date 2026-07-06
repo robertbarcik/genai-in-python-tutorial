@@ -1,0 +1,17 @@
+{
+  "extracted_data": {
+    "contact_email": "jane.doe@company.com",
+    "employee_id": "99",
+    "asset_tag": "PC",
+    "issue_summary": "My computer won't start. Please help!"
+  },
+  "validation": {
+    "is_valid": false,
+    "errors": [
+      "Invalid employee ID format: 99 (expected: EMP-####)"
+    ],
+    "warnings": [
+      "Asset tag too short: PC (expected: 5-20 chars)"
+    ]
+  }
+}

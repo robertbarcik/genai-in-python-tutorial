@@ -1,0 +1,23 @@
+room,device_type,manufacturer,model,serial_number,location_detail,quantity
+Executive Boardroom,Display,Samsung,QN75,SAMQN-8821,"3rd Floor, mounted on wall",1
+Executive Boardroom,Display,Samsung,QN75,SAMQN-8822,"3rd Floor, mounted on wall",1
+Executive Boardroom,Camera,Logitech,Rally Bar,LOGI-RB-3345,3rd Floor,1
+Executive Boardroom,Phone System,Polycom,RealPresence Trio 8800,POLY-8800-991,3rd Floor,1
+Executive Boardroom,Computer,Dell,OptiPlex 7090,DELL-OPT-4455,3rd Floor,1
+Room 2A,Display,LG,65-inch LG OLED,LG-OLED-2293,2nd Floor,1
+Room 2A,Camera,Jabra,PanaCast,JAB-PC-7721,2nd Floor,1
+Room 2A,Display,Microsoft,Surface Hub 2S 50-inch,MSFT-HUB-1203,2nd Floor,1
+Room 2A,Accessory,,Wireless Presentation Adapter,WRLSS-001,2nd Floor,1
+Room 2A,Accessory,,Wireless Presentation Adapter,WRLSS-002,2nd Floor,1
+Training Room B,Display,Sony,Bravia 55-inch,SONY-BR-5501,1st Floor,1
+Training Room B,Display,Sony,Bravia 55-inch,SONY-BR-5502,1st Floor,1
+Training Room B,Display,Sony,Bravia 55-inch,SONY-BR-5503,1st Floor,1
+Training Room B,Display,Sony,Bravia 55-inch,SONY-BR-5504,1st Floor,1
+Training Room B,Conference System,Cisco,Room Kit Pro,CISCO-WX-8832,1st Floor,1
+Training Room B,Computer,HP,EliteDesk 800,HP-ED-9901,1st Floor,1
+Training Room B,Computer,HP,EliteDesk 800,HP-ED-9902,1st Floor,1
+Training Room B,Computer,HP,EliteDesk 800,HP-ED-9903,1st Floor,1
+Training Room B,Display,Epson,PowerLite,EPSON-PL-4456,1st Floor,1
+Small Meeting Room 105,Display,Dell,43-inch Monitor,DELL-MON-3344,,1
+Small Meeting Room 105,Camera,Logitech,MeetUp,LOGI-MU-6655,,1
+Small Meeting Room 105,Docking Station,,Laptop Docking Station,DOCK-STN-2234,,1

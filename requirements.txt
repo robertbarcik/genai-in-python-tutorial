@@ -1,0 +1,20 @@
+jupyter
+notebook
+nbformat
+openai==2.28.0
+pillow==11.3.0
+requests==2.32.4
+opencv-python==4.13.0.92
+matplotlib==3.10.0
+numpy==2.0.2
+moviepy==1.0.3
+gdown==5.2.1
+pydantic==2.12.3
+email-validator==2.3.0
+tqdm==4.67.3
+pandas==2.2.2
+sqlalchemy==2.0.48
+
+# Modules 4 (fine-tuning) and 7 (Hugging Face) need a GPU and install their
+# own extra packages (transformers, torch, accelerate, etc.) inline when run
+# in Google Colab. They are not included here to keep local installs light.

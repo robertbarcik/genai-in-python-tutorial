@@ -92,3 +92,7 @@ htmlcov/
 *.m4a
 *.aac
 *.flac
+
+# Generated images (kept out of git; notebooks embed small previews as outputs)
+network_diagram.png
+*.generated.png

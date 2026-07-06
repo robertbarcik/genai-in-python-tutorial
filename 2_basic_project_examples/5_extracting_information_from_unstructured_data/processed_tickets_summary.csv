@@ -1,0 +1,4 @@
+ticket_id,user_name,department,issue_summary,urgency,status,confidence,processed_at
+TKT-20260706-092115,Alex Morgan,Engineering,Dell Latitude laptop overheating and shutting down randomly during video calls,High,Ready,92,2026-07-06T09:21:23.999037
+TKT-20260706-092124,,,Computer not working properly,Medium,Requires Action,25,2026-07-06T09:21:44.400534
+TKT-20260706-092144,Maria Santos,Design,Workstation GPU issues - crashes during 3D rendering,Critical,Ready,92,2026-07-06T09:21:54.129693

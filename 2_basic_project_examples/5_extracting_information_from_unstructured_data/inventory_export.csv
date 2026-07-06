@@ -1,0 +1,4 @@
+room,device_type,manufacturer,model,serial_number,quantity
+Conference A,Display,Samsung,QN75,SAM-001,1
+Conference A,Camera,Logitech,Rally Bar,LOG-445,1
+Conference B,Display,LG,OLED65,LG-2293,1
