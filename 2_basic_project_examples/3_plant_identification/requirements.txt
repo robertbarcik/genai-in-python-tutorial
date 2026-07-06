@@ -1,6 +1,1 @@
 openai==2.28.0
-opencv-python==4.13.0.92
-matplotlib==3.10.0
-numpy==2.0.2
-requests==2.32.4
-pillow==11.3.0

@@ -93,6 +93,9 @@ htmlcov/
 *.aac
 *.flac
 
+# ...except small bundled sample assets notebooks need to run
+!2_basic_project_examples/4_extracting_knowledge_from_videos/sample_lecture_clip.mp3
+
 # Generated images (kept out of git; notebooks embed small previews as outputs)
 network_diagram.png
 *.generated.png
