@@ -1,20 +1,35 @@
+# GenAI in Python — one requirements file for the whole course (local setup).
+#
+# Google Colab users do NOT need this: every notebook installs what it needs
+# in its first cell. For a local machine, run these once from the course
+# folder (Python 3.10 or newer; tested on 3.10–3.14 in September 2026):
+#
+#   python3 -m venv genai_env
+#   source genai_env/bin/activate        # Windows: genai_env\Scripts\activate
+#   pip install -r requirements.txt
+#   jupyter notebook
+#
+# and set your key as an environment variable (OPENAI_API_KEY) or paste it
+# into the prompt the notebooks show when no key is found.
+
+# --- OpenAI SDK: pinned to the exact version the notebooks were executed with ---
+openai==2.28.0
+
+# --- Structured outputs (module 5, extracting information from unstructured data) ---
+pydantic==2.12.3
+
+# --- Data handling: RAG, natural-language-to-SQL and fine-tuning notebooks ---
+# Ranges rather than exact pins on purpose: the Colab-matched versions
+# (numpy 2.0.2, pandas 2.2.2, matplotlib 3.10.0) have no wheels for
+# Python 3.13/3.14, so an exact pin would break the install on a fresh Python.
+numpy>=2.0,<3
+pandas>=2.2,<3
+matplotlib>=3.10,<4
+
+# --- Local notebook runtime (Colab has this preinstalled) ---
 jupyter
 notebook
-nbformat
-openai==2.28.0
-pillow==11.3.0
-requests==2.32.4
-opencv-python==4.13.0.92
-matplotlib==3.10.0
-numpy==2.0.2
-moviepy==1.0.3
-gdown==5.2.1
-pydantic==2.12.3
-email-validator==2.3.0
-tqdm==4.67.3
-pandas==2.2.2
-sqlalchemy==2.0.48
 
-# Modules 4 (fine-tuning) and 7 (Hugging Face) need a GPU and install their
-# own extra packages (transformers, torch, accelerate, etc.) inline when run
-# in Google Colab. They are not included here to keep local installs light.
+# Not included on purpose: module 7_hugging_face (transformers, torch, datasets,
+# accelerate...) needs a GPU and installs its own packages in its first cell.
+# Run it in Google Colab with a T4 GPU runtime rather than locally.

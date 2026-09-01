@@ -32,7 +32,7 @@ Modules 10 (fine-tuning theory) and 13 (Hugging Face) need a GPU runtime: in Col
 
 ### Option B: Local Python
 
-Requirements: Python 3.10+.
+Requirements: Python 3.10 or newer. The single `requirements.txt` in the course root covers every module except Hugging Face (tested on Python 3.10 to 3.14, September 2026).
 
 ```bash
 pip install -r requirements.txt
@@ -42,7 +42,7 @@ jupyter notebook
 
 Each notebook's auth cell checks, in order: Colab secrets, then the `OPENAI_API_KEY` environment variable, then falls back to an interactive prompt. Setting the environment variable lets every notebook run headlessly.
 
-Modules 10 and 7 (Hugging Face) install `torch`/`transformers` themselves and are best run on Colab's free T4 GPU rather than locally without a GPU.
+Module 13 (Hugging Face) needs a GPU and installs `torch`/`transformers` itself in its first cell, so those packages are deliberately left out of `requirements.txt`; run it on Colab's free T4 GPU rather than locally.
 
 ## Notes
 
