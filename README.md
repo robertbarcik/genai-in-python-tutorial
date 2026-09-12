@@ -1,34 +1,31 @@
 # GenAI in Python Tutorial
 
-A companion tutorial repo for learning Generative AI development in Python, built around the OpenAI API. Fifteen modules take you from Python basics through prompt engineering, RAG, function calling, fine-tuning, and beyond. Every notebook starts with an "Open in Colab" badge and (except the two GPU modules) is committed with real, executed outputs so it reads like an article even before you run a single cell.
+A companion tutorial repo for learning Generative AI development in Python, built around the OpenAI API: API keys, no frameworks, the model as the backend of your own apps, plus the handful of advanced concepts you need to make those apps real. Every notebook starts with an "Open in Colab" badge and (except the Hugging Face module) is committed with real, executed outputs, so it reads like an article before you run a single cell.
+
+Default model in every notebook: `gpt-5.6-luna`, the small, cheap model of the current generation (about $0.20 per million input tokens, $1.20 per million output). Running a whole notebook costs cents.
 
 ## Modules
 
 | # | Module | What it covers |
 |---|--------|-----------------|
-| 1 | [Absolute Python Essentials](1_absolute_python_essentials/1_absolute_python_essentials.ipynb) | Core Python: variables, strings, control flow, functions - no API key needed |
-| 2 | [One Call Is All You Need](2_basic_project_examples/2_basic_model_usage/2_basic_model_usage.ipynb) | The single text call every other app is built on, plus giving the model a role and streaming its answer |
-| 3 | [Plant Identification](2_basic_project_examples/3_plant_identification/3_plant_identification.ipynb) | Hand the model a photo and it names the plant (vision) |
-| 4 | [Extracting Knowledge from Videos](2_basic_project_examples/4_extracting_knowledge_from_videos/4_extracting_knowledge_from_videos.ipynb) | Transcribe a recording and turn it into clean, usable notes |
-| 5 | [Extracting Information from Unstructured Data](2_basic_project_examples/5_extracting_information_from_unstructured_data/5_extracting_information_from_unstructured_data.ipynb) | Turn messy free-form text into structured JSON with structured outputs |
-| 6 | [Fairytale Studio](2_basic_project_examples/6_converting_text_into_audio_fairytale_example/6_converting_text_to_audio_fairytale_example.ipynb) | One story idea becomes a written tale, a narration, and an illustration |
-| 7 | [Natural Language to SQL](2_basic_project_examples/7_natural_language_to_sql/7_natural_language_to_sql.ipynb) | Ask a question in plain English, get SQL, run it on a small database |
-| 8 | [Content Creation](2_basic_project_examples/8_content_creation/8_content_creation.ipynb) | Draft a knowledge base article from raw ticket notes, then repurpose it |
-| 9 | [Retrieval-Augmented Generation (RAG)](3_retrieval_augmented_generation_RAG/3_retrieval_augmented_generation_RAG.ipynb) | Embeddings, semantic search, and grounding answers in retrieved context |
-| 10 | [Fine-Tuning](4_fine-tuning/4_fine-tuning.ipynb) | Modern fine-tuning approaches (SFT, DPO) and when to use them - **needs a GPU, Colab T4** |
-| 11 | [Function Calling](5_function_calling/5_function_calling.ipynb) | Connecting LLMs to external functions and real-world actions |
-| 12 | [Basics of Prompt Engineering](6_basics_of_prompt_engineering/6_basics_of_prompt_engineering.ipynb) | Temperature, sampling, and core prompting techniques |
-| 13 | [Hugging Face](7_hugging_face/7_hugging_face.ipynb) | Transfer learning and running open-source models locally - **needs a GPU, Colab T4** |
-| 14 | [Structured Outputs](8_structured_outputs/8_structured_outputs.ipynb) | Getting type-safe JSON responses from the Responses API |
-| 15 | [Built-in Tools](9_tools/9_tools.ipynb) | Web search, MCP, file search / vector stores, and code interpreter |
+| 1 | [Absolute Python Essentials](1_absolute_python_essentials/1_absolute_python_essentials.ipynb) | Core Python: variables, strings, control flow, functions. No API key needed |
+| 2 | [Seven Small Apps, One API Call](2_basic_project_examples/2_basic_project_examples.ipynb) | One notebook, seven sections: the one text call and its knobs (role, streaming), plant ID from a photo, recording to notes, messy text to JSON, a fairytale with voice and picture, plain-English questions to SQL, ticket notes to a knowledge-base article |
+| 3 | [Retrieval-Augmented Generation (RAG)](3_retrieval_augmented_generation_RAG/3_retrieval_augmented_generation_RAG.ipynb) | Embed, store, search, generate, built by hand with pictures of each step; top-k; grounded answers |
+| 4 | [Fine-Tuning](4_fine-tuning/4_fine-tuning.ipynb) | What LoRA changes inside a model (shown with numpy), behaviour vs knowledge, what it costs on OpenAI, hosted and on your own GPU, and why you will rarely need it. CPU only, no API key |
+| 5 | [Function Calling](5_function_calling/5_function_calling.ipynb) | The two-sided flow, the loop that runs your functions and hands results back, `tool_choice` |
+| 6 | [Basics of Prompt Engineering](6_basics_of_prompt_engineering/6_basics_of_prompt_engineering.ipynb) | Reasoning effort and verbosity, clear instructions with reasons, roles and structure, few-shot, reducing hallucination, chaining calls |
+| 7 | [Hugging Face](7_hugging_face/7_hugging_face.ipynb) | Running open-source models locally with `transformers`. **Needs a GPU, Colab T4** |
+| 8 | [Structured Outputs](8_structured_outputs/8_structured_outputs.ipynb) | Pydantic + `responses.parse`, what is sent under the hood, enums, optional fields, nested lists, refusals |
+| 9 | [Built-in Tools](9_tools/9_tools.ipynb) | Web search, code interpreter, file search (hosted RAG), image generation, remote MCP, combining tools |
+| 10 | [Conversations, Caching, Batch, Moderation](10_conversations_caching_batch/10_conversations_caching_batch.ipynb) | Keeping conversation state three ways, prompt caching, the Batch API and flex tier, the moderation endpoint |
 
 ## How to Run
 
 ### Option A: Google Colab (recommended)
 
-Click the "Open In Colab" badge at the top of any notebook. In Colab, add your OpenAI key as a Colab secret named `OPENAI_API_KEY` (the key icon in the left sidebar), or paste it in when prompted.
+Click the "Open in Colab" badge at the top of any notebook. In Colab, add your OpenAI key as a Colab secret named `OPENAI_API_KEY` (the key icon in the left sidebar), or paste it in when prompted. Notebooks that need data files fetch them from this repository automatically.
 
-Modules 10 (fine-tuning theory) and 13 (Hugging Face) need a GPU runtime: in Colab go to **Runtime > Change runtime type > T4 GPU** before running them.
+Module 7 (Hugging Face) needs a GPU runtime: in Colab go to **Runtime > Change runtime type > T4 GPU** before running it.
 
 ### Option B: Local Python
 
@@ -40,12 +37,13 @@ export OPENAI_API_KEY="sk-your-key-here"
 jupyter notebook
 ```
 
-Each notebook's auth cell checks, in order: Colab secrets, then the `OPENAI_API_KEY` environment variable, then falls back to an interactive prompt. Setting the environment variable lets every notebook run headlessly.
+Each notebook's setup cell looks for the key in this order: Colab secrets, the `OPENAI_API_KEY` environment variable, an interactive prompt. Setting the environment variable lets every notebook run headlessly. Each module folder also has its own `requirements.txt` with only what that notebook needs.
 
-Modules 10 and 7 (Hugging Face) install `torch`/`transformers` themselves and are best run on Colab's free T4 GPU rather than locally without a GPU.
+Module 7 (Hugging Face) installs `torch`/`transformers` itself and is best run on Colab's free T4 GPU rather than locally without a GPU.
 
 ## Notes
 
 - All notebooks are committed with their outputs already executed, so you can read them like a finished tutorial and still re-run every cell yourself.
-- Generated audio, video, and image files are gitignored to keep the repo light; small generated text, JSON, and CSV artifacts are committed alongside the notebooks that produce them.
+- Generated audio and image files are gitignored; notebooks embed small previews as outputs. Sample data lives next to each notebook (module 2 keeps it in `data/`).
+- Model and API facts (prices, model names, deprecations) were verified against the OpenAI documentation in September 2026. They age; check [developers.openai.com/api/docs/pricing](https://developers.openai.com/api/docs/pricing) when in doubt.
 - This is a companion tutorial repo maintained alongside Robert Barcik's other training material repos.
