@@ -1,4 +1,0 @@
-openai==3.13.0
-pandas==2.2.2
-pydantic==2.12.3
-pillow==11.3.0

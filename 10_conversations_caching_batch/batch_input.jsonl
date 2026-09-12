@@ -1,0 +1,5 @@
+{"custom_id": "ticket-0", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-5.6-luna", "input": "Classify this helpdesk ticket as hardware, software, access or other. One word.\nPrinter on floor 3 is jammed"}}
+{"custom_id": "ticket-1", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-5.6-luna", "input": "Classify this helpdesk ticket as hardware, software, access or other. One word.\nI can't log in to the VPN from home"}}
+{"custom_id": "ticket-2", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-5.6-luna", "input": "Classify this helpdesk ticket as hardware, software, access or other. One word.\nRequesting a second monitor"}}
+{"custom_id": "ticket-3", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-5.6-luna", "input": "Classify this helpdesk ticket as hardware, software, access or other. One word.\nOutlook keeps crashing on start"}}
+{"custom_id": "ticket-4", "method": "POST", "url": "/v1/responses", "body": {"model": "gpt-5.6-luna", "input": "Classify this helpdesk ticket as hardware, software, access or other. One word.\nWho do I ask about a badge for a visitor?"}}
