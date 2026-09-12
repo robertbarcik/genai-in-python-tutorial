@@ -1,0 +1,23 @@
+From: jennifer.martinez@company.com
+Subject: Urgent - Cannot Access Email
+
+Hi IT Support,
+
+I'm Jennifer Martinez from the Sales department. Since this morning I can't
+log into Outlook, it just keeps saying my password is wrong even though I
+haven't changed it. I have a client call in an hour and I need my inbox.
+Please help ASAP!
+
+Thanks,
+Jennifer
+-----
+Hey, this is Marcus from Engineering. My laptop screen keeps flickering
+and sometimes goes black for a few seconds, it's been happening for two
+days and it's getting worse. Not urgent but annoying, can someone take
+a look this week?
+-----
+Subject: PRODUCTION DOWN - payment gateway
+
+This is Priya Nair, Finance. Since 09:40 none of the card payments on the
+webshop go through, customers get "gateway timeout". We are losing orders
+every minute. Who is on call?? Call me on 555-0142.

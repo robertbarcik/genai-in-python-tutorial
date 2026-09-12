@@ -1,0 +1,7 @@
+Ticket #482 - Password reset link not arriving
+User: sarah.chen@company.com
+Notes: user says reset email never arrives, checked spam folder, tried 3x,
+using Chrome, account not locked. Fix: manually triggered reset from admin
+panel, email arrived within 1 min. Root cause: user's inbox rule was
+routing mail from IT to a folder she never checks. Told user to review
+her "IT Notifications" filter rule.
