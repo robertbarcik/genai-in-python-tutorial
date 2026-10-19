@@ -2,7 +2,7 @@
 
 A companion tutorial repo for learning Generative AI development in Python, built around the OpenAI API: API keys, no frameworks, the model as the backend of your own apps, plus the handful of advanced concepts you need to make those apps real. Every notebook starts with an "Open in Colab" badge and (except the Hugging Face module) is committed with real, executed outputs, so it reads like an article before you run a single cell.
 
-Default model in every notebook: `gpt-5.6-luna`, the small, cheap model of the current generation (about 0.20 USD per million input tokens, 1.20 USD per million output). Running a whole notebook costs cents.
+Default model in every notebook: `gpt-5.6-luna`, the small, cheap model of the current generation (about 0.20 USD per million input tokens, 1.20 USD per million output). The decision-models notebook uses `gpt-6-luna`, because the Decisions API runs only on it. Running a whole notebook costs cents.
 
 ## Modules
 
@@ -19,6 +19,7 @@ The advanced modules (3 to 10) go from the simplest concepts to the toughest: ap
 | 7 | [Fine-Tuning](7_fine-tuning/7_fine-tuning.ipynb) | What LoRA changes inside a model (shown with numpy), behaviour vs knowledge, what it costs on OpenAI, hosted and on your own GPU, and why you will rarely need it. CPU only, no API key |
 | 8 | [Built-in Tools](8_tools/8_tools.ipynb) | Web search, code interpreter, file search (hosted RAG), image generation, remote MCP, combining tools |
 | 9 | [Function Calling](9_function_calling/9_function_calling.ipynb) | The two-sided flow, the loop that runs your functions and hands results back, `tool_choice` |
+| 9b | [Decision Models](9b_decision_models/9b_decision_models.ipynb) | A third thing a model can do, decide: the Decisions API (yes/no, choice, score with probabilities), thresholds, a decision model as the gate next to function calling, the speed and price comparison |
 | 10 | [Hugging Face](10_hugging_face/10_hugging_face.ipynb) | Running open-source models locally with `transformers`. **Needs a GPU, Colab T4** |
 
 ## How to Run
@@ -47,5 +48,5 @@ Module 10 (Hugging Face) needs a GPU and installs `torch`/`transformers` itself 
 
 - All notebooks are committed with their outputs already executed, so you can read them like a finished tutorial and still re-run every cell yourself.
 - Generated audio and image files are gitignored; notebooks embed small previews as outputs. Sample data lives next to each notebook (module 2 keeps it in `data/`).
-- Model and API facts (prices, model names, deprecations) were verified against the OpenAI documentation in September 2026. They age; check [developers.openai.com/api/docs/pricing](https://developers.openai.com/api/docs/pricing) when in doubt.
+- Model and API facts (prices, model names, deprecations) were verified against the OpenAI documentation in September 2026 (decision models: October 2026). They age; check [developers.openai.com/api/docs/pricing](https://developers.openai.com/api/docs/pricing) when in doubt.
 - This is a companion tutorial repo maintained alongside Robert Barcik's other training material repos.

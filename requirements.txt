@@ -13,7 +13,7 @@
 # into the prompt the notebooks show when no key is found.
 
 # --- OpenAI SDK: pinned to the exact version the notebooks were executed with ---
-openai==3.13.0
+openai==3.35.1
 
 # --- Structured outputs (modules 2, 6, 8) ---
 pydantic==2.12.3
